@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="css/styles.css">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-section">
+        <div class="pwd-introduction">
+            <h1>Creating the key to <span>Your Digital Castle...</span></h1>
+            <h2>Secure your password the easy way!</h2>
+        </div>
+        <div class="pwd-generator">
+            <form action="javascript:void(0)">
+                <h2 style="margin-bottom: 15%;margin-top: -50px;">--Password Generator--</h2>
+                <input type="text" id="length" placeholder="Enter password length">
+                <button onclick="generatepwd()" class="generateBtn"><span>Generate</span>   <svg viewBox="-5 -5 110 110" preserveAspectRatio="none" aria-hidden="true">
+                    <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0"/>
+                  </svg></button>
+                <h4 style="margin-top: 23%;">Your password is</h4>
+                 <h4 id="password">ANDDCDVWVD</h4>
+            </form>
+
+        </div>
+       
+
+    </div>
+    <script src="js/pwd_generator.js"></script>
+</body>
+</html>
